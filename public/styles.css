@@ -1,0 +1,98 @@
+#button-addon1 {
+    color: #ffc371;
+  }
+  
+  i {
+    color: #ffc371;
+  }
+  
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  .form-control.shadow-0:focus {
+    box-shadow: none;
+  }
+
+  .Footer {
+    text-align: center;
+    background-color: #34D5CA;
+    /* border: 3px solid orange; */
+    font-size: 25px;
+    font-style;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* bottom: 0; */
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+.button {
+    text-align: center;
+    /* background-color: #4CAF50;  */
+    border: none;
+    color: white;
+    padding: 20px 40px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-color: grey;
+    border-width: 2px;
+  }
+
+#frmUploader{
+    margin: 50px 0px 0px 500px;
+    padding-top: 90px;
+}
+
+.button1{
+    padding: 20px 40px 20px 40px;
+    border-radius: 8px;
+    border: 2px solid grey;
+}
+
+.button2{
+    padding: 10px 40px 10px 40px;
+      background-color: #34D5CA;
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      border-radius: 8px;
+}
+
+.image{
+  padding: 40px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.image:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.uploaded_img{
+  border: 1px solid grey;
+  margin-left: 100px;
+  height: 400px;
+  width: 550px;
+}
+
+h2{
+  text-align: center;
+}

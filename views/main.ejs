@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Upload images to server using Node JS</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+    <div class="bg-light py-4 Footer">
+      <div class="container text-center">
+        <p class="text-muted mb-0 py-2"><b>Brain Tumor Image Classification</b></p>
+      </div>
+   </div>
+   
+   <div>
+    <form id="frmUploader" style="align-items: center" enctype="multipart/form-data" method = "post">
+        <input class = "button button1" type="file" name="myFile"/>
+        <input class = "button button2" type="submit" value="Upload your image" /> </form>
+    </div>
+
+    <div class = "image">
+      <div class = "column">
+        <h2 >Input Image</h2>
+        <img src= <%= img %> class = "uploaded_img" alt="Upload Photo">
+      </div>
+      <div class = "column">
+        <div>
+          <h2>Accuracy</h2>
+          <img src="./download.png" class = "uploaded_img" alt="Upload Photo">
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2 id = "pred">
+        Predictions: <%= pred %>
+       </h2>
+    </div>
+    
+</body>
+
+</html>
